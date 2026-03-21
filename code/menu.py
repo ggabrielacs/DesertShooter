@@ -24,12 +24,12 @@ class Menu:
             self.menu_text(
                 text_size=100,
                 text= "Desert",
-                text_color= COLOR_ORANGE,
+                text_color= COLOR_WHITE,
                 text_center_pos= ((WIN_WIDTH /2), 70))
             self.menu_text(
                 text_size=50,
                 text= "Shooter",
-                text_color= COLOR_ORANGE,
+                text_color= COLOR_WHITE,
                 text_center_pos= ((WIN_WIDTH /2), 120))
 
             for i in range(len(MENU_OPTION)):
