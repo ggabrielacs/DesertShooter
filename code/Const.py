@@ -41,6 +41,24 @@ MENU_OPTION = ('NEW GAME 1P',
               'SCORE',
               'EXIT')
 
+ENTITY_HEALTH = {
+    'Level1Bg0': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Level2Bg0': 999,
+    'Level2Bg1': 999,
+    'Level2Bg2': 999,
+    'Level2Bg3': 999,
+    'Level2Bg4': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 50,
+    'Enemy2': 60,
+
+}
+
 #W
 WIN_WIDTH: int = 800
 WIN_HEIGHT = 600
